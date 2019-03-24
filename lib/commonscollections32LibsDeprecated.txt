@@ -1,0 +1,11 @@
+The following libraries have been deprecated due other dependencies.
+In order to ensure that their capabilities have been removed, these files
+include placeholder class files that are not referenced by the IdentityIQ
+application.  They are distributed to overwrite the existing libraries in
+existing environments.
+
+commons-collections-3.2.jar
+
+The following libraries will be utilized instead:
+
+commons-collections-3.2.2.jar
