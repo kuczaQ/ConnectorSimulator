@@ -27,7 +27,7 @@ public class RestConnectorTest {
     static {
         restConnector = new RestConnector(
                 "IDMSFP010",
-                "4yB3svnM",
+                "",
                 "http://localhost:8090/")
                 {
                     @Override
@@ -49,7 +49,7 @@ public class RestConnectorTest {
     public void getJsonUserDataAsJSONArray() throws IOException, JSONException {
         digiReRestConnector.getJsonUserDataAsJSONArray();
     }
-
+ProxyClient
     @Test
     @Order(20)
     public void getObjectsMap() {
